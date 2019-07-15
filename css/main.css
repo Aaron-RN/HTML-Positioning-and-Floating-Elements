@@ -52,15 +52,14 @@ nav{
 }
 
 .editors-pick{
-  position: absolute;
-  margin-right: 160px;
-  margin-top: -200px;
-  right: 0;
+    position: absolute;
+    margin-right: 160px;
+    margin-top: -200px;
+    right: 0;
 }
 
 .imageBtn{
   cursor: pointer;
-
 }
 
 .imageBtn:hover{
@@ -82,10 +81,15 @@ nav{
     padding: 8px;
 }
 
-.max-width-50P{
-  max-width:50%;
+.max-width-40P{
+    max-width:40%;
 }
-
+.max-width-50P{
+    max-width:50%;
+}
+.max-width-60P{
+    max-width:60%;
+}
 .border-t-grey{
     border-top: 1px grey solid;
     width: 80px;
@@ -125,9 +129,7 @@ nav{
 .text-dgray{
     color: rgb(80,80,80);
 }
-.size-6{
-    font-size: 6px;
-}
+
 .size-12{
     font-size: 12px;
 }
@@ -138,11 +140,6 @@ nav{
     font-size: 20px;
 }
 
-.size-20-div{
-    font-size: 10px;
-    height: auto;
-    width: 70px;
-}
 .width-100{
     width: 100%;
 }
@@ -177,47 +174,55 @@ main{
 }
 
 .pHeader{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
-  font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
 }
 
 .backgroundImage{
-  position: absolute;
-  z-index: 1;
-  width:95%;
-  overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    width:97%;
+    height: auto;
+    overflow: hidden;
 }
 
 .foreBox1 {
-
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 .foreBox2{
-  position: absolute;
-  z-index: 3;
+    position: relative;
+    z-index: 3;
 }
 
 
 .foreBox1 div {
-  display: inline-block;
-  margin-top: 100px;
-   max-width: 150px;
-  height: 100px;
-  font-size: 10px;
-  line-height: 1.2;
-  margin-left: 40px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-top: 140px;
+    max-width: 190px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 30px;
+}
+.foreBox1 div:nth-child(1){
+    margin-left: 0;
 }
 
 .foreBox2 div {
-  display: inline-block;
-  margin-top: 150px;
-   max-width: 150px;
-  height: 100px;
-  font-size: 10px;
-  line-height: 1.2;
-  margin-left: 35px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-top: 140px;
+    max-width: 190px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 30px;
+}
+.foreBox2 div:nth-child(1){
+    margin-left: 0;
 }
