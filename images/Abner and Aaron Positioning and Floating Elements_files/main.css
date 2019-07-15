@@ -50,23 +50,6 @@ nav{
     border: 1px blue solid;
     border-radius: 6px;
 }
-
-.editors-pick{
-  position: absolute;
-  margin-right: 160px;
-  margin-top: -200px;
-  right: 0;
-}
-
-.imageBtn{
-  cursor: pointer;
-
-}
-
-.imageBtn:hover{
-    text-decoration: underline;
-}
-
 .bluebtn:hover{
     background-color: darkslateblue;
 }
@@ -80,10 +63,6 @@ nav{
     font-size: 14px;
     border-radius: 100%;
     padding: 8px;
-}
-
-.max-width-50P{
-  max-width:50%;
 }
 
 .border-t-grey{
@@ -108,11 +87,6 @@ nav{
 .line-28{
     line-height: 28px;
 }
-
-.line-16{
-    line-height: 16px;
-    font-size: 15px;
-}
 .text-grey{
     color: grey;
 }
@@ -125,9 +99,6 @@ nav{
 .text-dgray{
     color: rgb(80,80,80);
 }
-.size-6{
-    font-size: 6px;
-}
 .size-12{
     font-size: 12px;
 }
@@ -137,20 +108,11 @@ nav{
 .size-20{
     font-size: 20px;
 }
-
-.size-20-div{
-    font-size: 10px;
-    height: auto;
-    width: 70px;
-}
 .width-100{
     width: 100%;
 }
 .width-80{
     width: 80%;
-}
-.width-60{
-    width: 60%;
 }
 .width-40{
     width: 40%;
@@ -181,43 +143,4 @@ main{
   padding-bottom: 10px;
   text-align: left;
   font-weight: bold;
-}
-
-.backgroundImage{
-  position: absolute;
-  z-index: 1;
-  width:95%;
-  overflow: hidden;
-}
-
-.foreBox1 {
-
-  position: relative;
-  z-index: 2;
-}
-
-.foreBox2{
-  position: absolute;
-  z-index: 3;
-}
-
-
-.foreBox1 div {
-  display: inline-block;
-  margin-top: 100px;
-   max-width: 150px;
-  height: 100px;
-  font-size: 10px;
-  line-height: 1.2;
-  margin-left: 40px;
-}
-
-.foreBox2 div {
-  display: inline-block;
-  margin-top: 150px;
-   max-width: 150px;
-  height: 100px;
-  font-size: 10px;
-  line-height: 1.2;
-  margin-left: 35px;
 }
