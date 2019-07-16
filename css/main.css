@@ -5,7 +5,7 @@ body{
     font-size-adjust: 100%;
 }
 div, img{
-   outline: 1px red solid;
+   //outline: 1px red solid;
 }
 *{
     box-sizing: border-box;
@@ -70,7 +70,7 @@ nav{
     background-color: rgb(98,136,165);
     border: none;
     border: 1px lightslategray solid;
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 .editors-pick{
@@ -320,9 +320,8 @@ main{
   text-decoration:none;
 }
 
-.imageCentered{
-  position:relative;
-  left: 5%;
+.overflow-hidden{
+    overflow: hidden;
 }
 
 /* Responsive layout - */
