@@ -1,3 +1,6 @@
+.flex-container{
+    display: flex;
+}
 .flex-center{
     justify-content: center;
 }
@@ -7,14 +10,23 @@
 .flex-row{
     flex-direction: row;
 }
+.flexgrow-0{
+    flex-grow: 0;
+}
 .flexgrow-1{
     flex-grow: 1;
 }
 .flex-nowrap{
     flex-wrap: nowrap;
 }
+.alignitems-base{
+    align-items:baseline;
+}
 .alignitems-center{
     align-items: center;
+}
+.alignitems-stretch{
+    align-items: stretch;
 }
 .alignself-center{
     align-self: center;
@@ -37,6 +49,9 @@
 
 .pad-b-5{
     padding-bottom: 5px;
+}
+.pad-5{
+    padding: 5px;
 }
 .pad-10{
     padding: 10px;
@@ -89,7 +104,9 @@
 .pad-b-20{
     padding-bottom: 20px;
 }
-
+.pad-t-30{
+    padding-top: 30px;
+}
 .pad-r-60{
     padding-right: 60px;
 }

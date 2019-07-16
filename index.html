@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/460a8b521b.js"></script>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
@@ -9,47 +10,51 @@
         <title>Abner and Aaron Positioning and Floating Elements</title>
     </head>
     <body>
-        <nav class="center center-text pad-10">
-            <div class="inline-block float-l">
-                <div class="inline-block pad-r-10">
+        <nav class="flex-center pad-5">
+            <div class="margin-r-auto">
+                <div class="inline-block pad-r-10 pad-l-10">
                     <i class="fas fa-bars"></i>
                 </div>
-                <div class="inline-block pad-r-10">
+                <div class="inline-block pad-r-10 pad-l-10">
                     <i class="fas fa-search"></i>
                 </div>
-                <div class="inline-block uppercase bold"><a href="index.html">Space & Cosmos</a></div>
+                <div class="inline-block uppercase bold pad-r-10 pad-l-10"><a href="index.html">Space & Cosmos</a></div>
             </div>
 
-            <div class="inline-block"><a href="index.html"><img class="center" width="auto" height="30" src="images/newYorkTitle.svg" alt="New York Times Image"></a></div>
+            <div><a href="index.html"><img width="auto" height="26" src="images/newYorkTitle.svg" alt="New York Times Image"></a></div>
 
-            <div class="inline-block float-r">
+            <div class="margin-l-auto">
                 <a class="bluebtn inline-block">Subscribe Now</a>
                 <a class="bluebtn inline-block">Log in</a>
             </div>
         </nav>
 
         <main class="center margin-top-main">
-            <div class="center main-header-text pad-20"><div class="max-width-440">Space Ripples Reveal Big Bang’s Smoking Gun</div></div>
+            <div class="center main-header-text pad-b-20 pad-t-30"><div class="max-width-480">Space Ripples Reveal <br> Big Bang’s Smoking Gun</div></div>
             <div class="center center-text pad-20">
                 <img width="80%" height="auto" src="images/18cosmos-superJumbo.jpg" alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.">
-                <div class="center text-align-left text-grey width-80"><div class="caption"><span>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span> <span class="size-12">Rick Friedman for The New York Times</span></div></div>
+                <div class="center text-align-left text-grey width-80 pad-t-10 line-20"><div class="caption"><span>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span> <span class="size-12">Rick Friedman for The New York Times</span></div></div>
             </div>
             <div class="center center-text">
                 <div class="center width-40 text-align-left">
-                    <div class="pad-10">By Dennis Overbye</div>
-                    <div class="pad-10">
-                        <div class="inline-block">March 17, 2014</div>
-                        <div class="inline-block float-r">
-                            <div class="inline-block media-icon-grey"><i class="fab fa-facebook-f"></i></div>
-                            <div class="inline-block media-icon-grey"><i class="fab fa-twitter"></i></div>
-                            <div class="inline-block media-icon-grey"><i class="fas fa-envelope"></i></div>
-                            <div class="inline-block media-icon-grey"><i class="fas fa-share"></i></div>
-                            <div class="inline-block media-icon"><i class="far fa-bookmark"></i></div>
-                            <div class="inline-block media-icon"><i class="far fa-comment-alt"></i></div>
+                    <div class="pad-20 bold">By <a href="index.html" class="text-black">Dennis Overbye</a></div>
+                    <div class="flex-container alignitems-center pad-20">
+                        <div class="size-14">March 17, 2014</div>
+                        <div class="flex-container alignitems-center flex-nowrap flex-row margin-l-auto">
+                        <div class="flex-container flex-nowrap flex-row" style="height: 50%;">
+                            <a href="index.html"><div class="media-icon-grey"><i class="fab fa-facebook-f"></i></div></a>
+                            <a href="index.html"><div class="media-icon-grey"><i class="fab fa-twitter"></i></div></a>
+                            <a href="index.html"><div class="media-icon-grey"><i class="fas fa-envelope"></i></div></a>
+                            <a href="index.html"><div class="media-icon-grey"><i class="fas fa-share"></i></div></a>
+                        </div>
+                        <div class="flex-container flex-nowrap flex-row">
+                            <a href="index.html"><div class="media-icon"><i class="far fa-bookmark"></i></div></a>
+                            <a href="index.html"><div class="media-icon size-30"><i class="far fa-comment-alt"></i><div class="size-12" style="position: absolute;margin-top:-25px; margin-left: 6px;">615</div></div></a>
+                        </div>
                         </div>
                     </div>
                 </div>
-                <div class="center width-40 text-align-left text-dgrey size-20 line-28 pad-10">
+                <div class="center width-40 text-align-left size-20 line-28 pad-10">
                     <p>CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.</p>
                     <br>
                     <p>He was trying to understand why there was no trace of some exotic particles that should have been created in the Big Bang. Instead he discovered what might have made the universe bang to begin with. A potential hitch in the presumed course of cosmic evolution could have infused space itself with a special energy that exerted a repulsive force, causing the universe to swell faster than the speed of light for a prodigiously violent instant.</p>
@@ -65,32 +70,32 @@
                 <div class="text-align-left max-width-200 signup-box">
                     <div class="bold pad-10">Sign up for Science Times</div>
                     <div class="text-gray size-14 pad-10">We’ll bring you stories that capture the wonders of the human body, nature and the cosmos.</div>
-                    <div class="center-text"><a class="bluebtn">Sign up</a></div>
+                    <div class="flex-container flex-center"><a class="bluebtn center-text width-100">Sign up</a></div>
                 </div>
 
                 <div class="center width-40 center-text pad-10">
                     <div class="border-t-grey center"></div>
                     <div class="bold pad-20 size-14">Unlock more free articles.<br>
-                        <a href="index.html">Create an account or log in</a></div>
+                        <a class="text-dgrayblue" href="index.html">Create an account or log in</a></div>
                     <div class="border-b-grey center"></div>
                 </div>
 
                 <div class="text-align-left max-width-200 editors-pick">
-                    <div class="bold pad-10">Editors' Picks</div>
-                    <div class="border-b-grey center width-100"></div>
+                    <div class="bold pad-b-10 size-14">Editors' Picks</div>
+                    <div class="border-b-grey center width-100 margin-b-10"></div>
                     
-                    <div class="text-align-left size-14"><a class="imageBtn"><img  class="inline-block max-width-40P" src="images/cornerPic5.jpg"><div class="inline-block max-width-60P">What if Being a YouTube Celebrity Is Actually Backbreaking Work? </div></a></div>
+                    <div class="size-14"><a class="imageBtn flex-container flex-nowrap alignitems-stretch"><img class="max-width-40P" src="images/cornerPic5.jpg"><div class="max-width-60P">What if Being a YouTube Celebrity Is Actually Backbreaking Work? </div></a></div>
                     
-                    <div class="text-align-left size-14 "><a class="imageBtn"><img class="inline-block max-width-40P" src="images/cornerPic1.jpg" alt="Etiquette for cannabis"><div class="inline-block max-width-60P">Where Are All the Bob Ross Paintings? We Found Them.</div></a></div>
+                    <div class="size-14 "><a class="imageBtn flex-container flex-nowrap alignitems-stretch"><img class="max-width-40P" src="images/cornerPic1.jpg" alt="Etiquette for cannabis"><div class="max-width-60P">Where Are All the Bob Ross Paintings? We Found Them.</div></a></div>
                     
-                    <div class="text-align-left size-14 "><a class="imageBtn"><img class="inline-block max-width-40P" src="images/cornerPic3.jpg" alt="Gina Torres"><div class="inline-block max-width-60P">When a Dating Dare Leads to Months of Soul Searching </div></a></div>
+                    <div class="size-14 "><a class="imageBtn flex-container flex-nowrap alignitems-stretch"><img class="max-width-40P" src="images/cornerPic3.jpg" alt="Gina Torres"><div class="max-width-60P">When a Dating Dare Leads to Months of Soul Searching </div></a></div>
                     
-                    <div class="text-align-left size-14 "><a class="imageBtn"><img class="inline-block max-width-40P" src="images/cornerPic4.jpeg" alt="Paid Post: Zenit"><div class="inline-block max-width-60P">PAID POST: Zenith How the Modern Chronograph Was Created</div></a></div>
+                    <div class="size-14 "><a class="imageBtn flex-container flex-nowrap alignitems-stretch"><img class="max-width-40P" src="images/cornerPic4.jpeg" alt="Paid Post: Zenit"><div class="max-width-60P">PAID POST: Zenith How the Modern Chronograph Was Created</div></a></div>
                     
                 </div>
 
 
-                <div class="center width-40 text-align-left text-dgrey size-20 line-28 pad-10">
+                <div class="center width-40 text-align-left size-20 line-28 pad-10">
                     <p>Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth, wondered whether it could ever be proved.</p>
                     <br>
                     <p>If corroborated, Dr. Kovac’s work will stand as a landmark in science comparable to the recent discovery of dark energy pushing the universe apart, or of the Big Bang itself. It would open vast realms of time and space and energy to science and speculation.</p>
@@ -98,7 +103,7 @@
                     <p>Confirming inflation would mean that the universe we see, extending 14 billion light-years in space with its hundreds of billions of galaxies, is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are unknowable. Moreover, beyond our own universe there might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.</p>
                 </div>
 
-                <div class="center width-40 text-align-left text-dgrey size-20 line-28 pad-10">
+                <div class="center width-40 text-align-left size-20 line-28 pad-10">
                   <p class="pHeader">‘As Big as It Gets’</p>
 
                   <p>In our own universe, it would serve as a window into the forces operating at energies forever beyond the reach of particle accelerators on Earth and yield new insights into gravity itself. Dr. Kovac’s ripples would be the first direct observation of gravitational waves, which, according to Einstein’s theory of general relativity, should ruffle space-time.</p>
@@ -112,49 +117,48 @@
                   <p>Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.</p>
                 </div>
 
-                <div class="center width-60 text-align-left text-dgrey size-20 line-28 pad-10" style="position:relative;padding-bottom: 400px;">
+                <div class="center width-70 text-align-left text-dgrey size-20 line-28 pad-10" style="position:relative;padding-bottom: 100px;overflow: hidden;">
                   <p class="pHeader">The Theory of Inflation</p>
                   <div class=" text-align-left text-grey line-16"><div class="caption"><span>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span></div></div>
-                  <img class="backgroundImage"src="images/theoryInflation.png">
+                  <div class="backgroundImage">
+                      <div class="foreBox1">
+                        <div>
+                          <p><span class="bold">THE UNIVERSE</span> &nbsp; is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</p>
+                        </div>
 
-                  <div class="foreBox1" style="position: relative; width: 100%;">
-                    <div>
-                      <p><span class="bold">THE UNIVERSE</span>  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</p>
+
+                        <div>
+                            <p><span class="bold">NOT ENOUGH TIME</span> &nbsp; The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature</p>
+                        </div>
+
+
+                        <div>
+                            <p><span class="bold">DISTANT COFFEE</span> &nbsp; At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.</p>
+                        </div>
+
+                        <div>
+                            <p><span class="bold">COFFEE EVERYWHERE</span> &nbsp; Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.</p>
+                        </div>
+                      </div>
+
+                      <div class="foreBox2">
+                        <div>
+                        <p><span class="bold">STILL NOT ENOUGH TIME</span> &nbsp; There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.</p>
+                        </div>
+
+                        <div>
+                            <p><span class="bold">INFLATION</span> &nbsp; solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</p>
+                        </div>
+
+                        <div>
+                            <p><span class="bold">FLUCTUATION</span> &nbsp; Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.</p>
+                        </div>
+
+                        <div>
+                            <p><span class="bold">EXPANSION</span> &nbsp; Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.</p>
+                        </div>
+                      </div>
                     </div>
-
-
-                    <div>
-                        <p><span class="bold">NOT ENOUGH TIME</span>  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature</p>
-                    </div>
-
-
-                    <div>
-                        <p><span class="bold">DISTANT COFFEE</span>  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.</p>
-                    </div>
-
-                    <div>
-                        <p><span class="bold">COFFEE EVERYWHERE</span>  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.</p>
-                    </div>
-                  </div>
-
-                  <div class="foreBox2">
-                <div>
-                    <p><span class="bold">STILL NOT ENOUGH TIME</span>  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.</p>
-                    </div>
-
-                    <div>
-                        <p><span class="bold">INFLATION</span>  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</p>
-                    </div>
-
-                    <div>
-                        <p><span class="bold">FLUCTUATION</span>  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.</p>
-                    </div>
-
-                    <div>
-                        <p><span class="bold">EXPANSION</span>  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.</p>
-                    </div>
-                  </div>
-
                   </div>
             </div>
         </main>

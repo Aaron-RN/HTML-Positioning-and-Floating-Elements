@@ -1,5 +1,7 @@
 body{
+    color: #333;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 15px;
     font-size-adjust: 100%;
 }
 div, img{
@@ -7,6 +9,10 @@ div, img{
 }
 *{
     box-sizing: border-box;
+}
+a{
+    color: #333;
+    text-decoration: none;
 }
 .inline-block{
     display: inline-block;
@@ -19,21 +25,23 @@ nav{
     z-index: 200;
     background-color: white;
     border-bottom: 1px solid grey;
-    vertical-align: middle;
-    display: block;
+    align-items: center;
+    display: flex;
     position: fixed;
     width: 100%;
 }
 .signup-box{
+    line-height: 18px;
     position: absolute;
-    margin-right: 160px;
-    margin-top: -380px;
-    right: 0;
+    margin-top: -800px;
+    right: 80px;
 }
 .bold{
-    font-weight: bold;
+    font-weight: 700;
 }
-
+.italic{
+    font-style: italic;
+}
 .uppercase{
     text-transform: uppercase;
 }
@@ -45,17 +53,16 @@ nav{
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    background-color: steelblue;
+    background-color: rgb(98,136,165);
     border: none;
-    border: 1px blue solid;
+    border: 1px lightslategray solid;
     border-radius: 6px;
 }
 
 .editors-pick{
     position: absolute;
-    margin-right: 160px;
     margin-top: -200px;
-    right: 0;
+    right: 80px;
 }
 
 .imageBtn{
@@ -67,20 +74,32 @@ nav{
 }
 
 .bluebtn:hover{
-    background-color: darkslateblue;
+    background-color: rgb(50,104,145);
 }
 .media-icon-grey{
+    cursor: pointer;
     font-size: 14px;
     background-color: lightgray;
+    border: 1px solid lightgray;
     border-radius: 100%;
-    padding: 8px;
+    padding: 6px 8px 6px 8px;
+    margin-left: 10px;
 }
-.mediaicon{
-    font-size: 14px;
-    border-radius: 100%;
-    padding: 8px;
+.media-icon-grey:hover{
+    background-color: white;
 }
-
+.media-icon{
+    cursor: pointer;
+    font-size: 28px;
+    padding: 8px;
+    margin-left: 10px;
+}
+.media-icon:hover{
+    color: lightgray;
+}
+.media-icon div{
+    color: black;
+}
 .max-width-40P{
     max-width:40%;
 }
@@ -112,7 +131,9 @@ nav{
 .line-28{
     line-height: 28px;
 }
-
+.line-20{
+    line-height: 20px;
+}
 .line-16{
     line-height: 16px;
     font-size: 15px;
@@ -129,7 +150,21 @@ nav{
 .text-dgray{
     color: rgb(80,80,80);
 }
-
+.text-grayblue{
+    color: rgb(98,136,165);
+}
+.text-greyblue{
+    color: rgb(98,136,165);
+}
+.text-dgrayblue{
+    color: rgb(50,104,145);
+}
+.text-dgreyblue{
+    color: rgb(50,104,145);
+}
+.text-black{
+    color: black;
+}
 .size-12{
     font-size: 12px;
 }
@@ -139,12 +174,17 @@ nav{
 .size-20{
     font-size: 20px;
 }
-
+.size-30{
+    font-size: 30px;
+}
 .width-100{
     width: 100%;
 }
 .width-80{
     width: 80%;
+}
+.width-70{
+    width: 70%;
 }
 .width-60{
     width: 60%;
@@ -159,18 +199,19 @@ main{
     width: 100%;
 }
 
-.max-width-440{
-    max-width: 440px;
+.max-width-480{
+    max-width: 480px;
 }
 .max-width-200{
     max-width: 200px;
 }
 .main-header-text{
+    color: #121212;
     max-width: 540px;
-    font-size: 34px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
     font-style: italic;
-    line-height: 42px;
+    line-height: 46px;
 }
 
 .pHeader{
@@ -181,48 +222,141 @@ main{
 }
 
 .backgroundImage{
-    position: absolute;
+    background-image: url(../images/theoryInflation.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    //position: absolute;
     z-index: 1;
-    width:97%;
+    //width:100%;
+    min-width: 940px;
     height: auto;
     overflow: hidden;
 }
 
 .foreBox1 {
     position: relative;
+    display: flex;
+    align-items: baseline;
+    min-width: 720px;
     z-index: 2;
+    //height: 50%;
+    //background-color: aquamarine;
 }
 
 .foreBox2{
     position: relative;
-    z-index: 3;
+    align-items: baseline;
+    min-width: 720px;
+    display: flex;
+    z-index: 2;
+    //height: 50%;
+    //background-color: green;
 }
 
 
 .foreBox1 div {
-    display: inline-block;
+    //display: inline-block;
     position: relative;
     vertical-align: top;
-    margin-top: 140px;
-    max-width: 190px;
-    font-size: 12px;
+    margin-top: 15%;
+    width: 230px;
+    font-size: 13px;
     line-height: 16px;
-    margin-left: 30px;
+    margin-left: 2.5%;
 }
 .foreBox1 div:nth-child(1){
     margin-left: 0;
 }
 
 .foreBox2 div {
-    display: inline-block;
+    //display: inline-block;
     position: relative;
     vertical-align: top;
-    margin-top: 140px;
-    max-width: 190px;
-    font-size: 12px;
+    margin-top: 19%;
+    width: 230px;
+    font-size: 14px;
     line-height: 16px;
-    margin-left: 30px;
+    margin-left: 2.5%;
 }
 .foreBox2 div:nth-child(1){
     margin-left: 0;
 }
+/* Responsive layout - */
+@media (max-width: 1024px) {
+    .width-70{
+        width: 80%;
+    }
+    .width-60{
+        width: 70%;
+    }
+    .width-40{
+        width: 60%;
+    }
+    .signup-box{
+        display: none;
+    }
+
+    .editors-pick{
+        display: none;
+    }
+}
+@media (max-width:986px){
+    .backgroundImage{
+        min-width: 720px;
+    }
+    .foreBox1 div {
+        margin-top: 15%;
+        width: 230px;
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: 2%;
+    }
+
+    .foreBox2 div {
+        margin-top: 8%;
+        width: 230px;
+        font-size: 13px;
+        line-height: 16px;
+        margin-left: 2%;
+    }
+}
+@media (max-width: 768px) {
+    .width-70{
+        width: 80%;
+    }
+    .width-60{
+        width: 80%;
+    }
+    .width-40{
+        width: 80%;
+    }
+    .signup-box{
+        display: none;
+    }
+
+    .editors-pick{
+        display: none;
+    }
+    nav{
+        box-sizing: border-box;
+        background-color: white;
+        border-bottom: 1px solid grey;
+        align-items: center;
+        display: flex;
+        position: static;
+        width: 100%;
+    }
+}
+
+/* Responsive layout - */
+@media (max-width: 600px) {
+    .width-70{
+        width: 90%;
+    }
+    .width-60{
+        width: 90%;
+    }
+    .width-40{
+        width: 90%;
+    }
+}   
