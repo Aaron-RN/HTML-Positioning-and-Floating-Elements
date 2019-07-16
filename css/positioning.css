@@ -1,6 +1,15 @@
 .flex-container{
     display: flex;
 }
+
+.flex-start{
+  flex-direction:row;
+}
+
+.flex-space-around{
+  justify-content: space-around;
+}
+
 .flex-center{
     justify-content: center;
 }
@@ -55,6 +64,9 @@
 }
 .pad-10{
     padding: 10px;
+}
+.pad-t-5{
+    padding-top: 5px;
 }
 .pad-t-10{
     padding-top: 10px;
@@ -126,6 +138,9 @@
 .margin-top-main{
     margin-top: 3em;
 }
+.margin-top{
+    margin-top: 2em;
+}
 .margin-l-auto{
     margin-left: auto;
 }
@@ -142,6 +157,9 @@
 .margin-l-20{
     margin-left: 20px;
 }
+.margin-l-30{
+    margin-left: 30px;
+}
 .margin-l-70{
     margin-left: 70px;
 }
@@ -156,6 +174,9 @@
 }
 .margin-r-20{
     margin-right: 20px;
+}
+.margin-r-30{
+    margin-right: 30px;
 }
 .margin-r-m15{
     margin-right: -15px;
