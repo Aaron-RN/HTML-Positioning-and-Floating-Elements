@@ -4,6 +4,7 @@ This assignment consists of making a clone of a New York Times article page. By 
 ## Authors: 
 ### Abner and Aaron
 Aaron's Github Profile: https://github.com/Aaron-RN
+
 Abner's Github Profile: https://github.com/Abner21
 
 ## Github Link
