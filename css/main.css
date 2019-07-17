@@ -2,13 +2,10 @@ body{
     color: #333;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size: 15px;
-    font-size-adjust: 100%;
 }
-div, img{
-   //outline: 1px red solid;
-}
+
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 a{
     color: #333;
@@ -58,6 +55,9 @@ nav{
     position: fixed;
     width: 100%;
 }
+.postion-absolute{
+  position: absolute;
+}
 .signup-box{
     line-height: 18px;
     position: absolute;
@@ -66,6 +66,16 @@ nav{
 }
 .bold{
     font-weight: 700;
+}
+.cotainerHeight{
+  line-height: 20px;
+}
+
+.bold-800{
+    font-weight: 800;
+}
+.bold-500{
+    font-weight: 500;
 }
 .italic{
     font-style: italic;
@@ -76,6 +86,9 @@ nav{
 
 .height-100{
   height:100%
+}
+.height-50{
+  height:50%
 }
 
 .bluebtn{
@@ -157,6 +170,9 @@ nav{
 }
 .border-t-gray-full{
     border-top: 1px gray solid;
+}
+.border-t-black-full{
+    border-top: 1px black solid;
 }
 .border-t-grey-full{
     border-top: 1px gray solid;
@@ -329,9 +345,7 @@ main{
     background-image: url(../images/theoryInflation.png);
     background-repeat: no-repeat;
     background-size: contain;
-    //position: absolute;
     z-index: 1;
-    //width:100%;
     min-width: 940px;
     height: auto;
     overflow: hidden;
@@ -343,8 +357,6 @@ main{
     align-items: baseline;
     min-width: 720px;
     z-index: 2;
-    //height: 50%;
-    //background-color: aquamarine;
 }
 
 .foreBox2{
@@ -353,13 +365,10 @@ main{
     min-width: 720px;
     display: flex;
     z-index: 2;
-    //height: 50%;
-    //background-color: green;
 }
 
 
 .foreBox1 div {
-    //display: inline-block;
     position: relative;
     vertical-align: top;
     margin-top: 15%;
@@ -373,7 +382,6 @@ main{
 }
 
 .foreBox2 div {
-    //display: inline-block;
     position: relative;
     vertical-align: top;
     margin-top: 19%;
@@ -390,8 +398,26 @@ main{
   text-decoration:none;
 }
 
+button{
+      background-color: Transparent;
+      cursor: pointer;
+      border: none;
+}
+
 .overflow-hidden{
     overflow: hidden;
+}
+
+.bottomFixed{
+  position: fixed;
+  z-index: 10;
+  bottom:0;
+  background-color: white;
+}
+
+.bottomList li{
+  margin-left: 20px;
+  color: gray;
 }
 
 /* Responsive layout - */
