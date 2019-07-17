@@ -157,6 +157,9 @@
 .margin-t-25{
     margin-top: 25px;
 }
+.margin-t-26{
+    margin-top: 26px;
+}
 .margin-top-main{
     margin-top: 3em;
 }
@@ -170,6 +173,9 @@
     margin-right: auto;
 }
 
+.margin-l-6{
+    margin-left: 6px;
+}
 .margin-l-10{
     margin-left: 10px;
 }
@@ -205,6 +211,9 @@
 }
 .margin-r-160{
     margin-right: 160px;
+}
+.margin-r-70{
+    margin-right: 70px;
 }
 .margin-r-m220{
     margin-right: -220px;
