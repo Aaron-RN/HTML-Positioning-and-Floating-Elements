@@ -11,9 +11,13 @@ a{
     color: #333;
     text-decoration: none;
 }
+.horizontal-margin a{
+    color: grey;
+}
 ul{
     list-style: none;
 }
+
 li{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -29,10 +33,6 @@ li a:hover{
 .mostPopular li :hover{
     text-decoration: none;
     color: #777;
-}
-.border-2{
-  border: 1px solid grey;
-
 }
 .inline-block{
     display: inline-block;
@@ -415,9 +415,8 @@ button{
   background-color: white;
 }
 
-.bottomList li{
-  margin-left: 20px;
-  color: gray;
+.horizontal-margin li{
+    margin-left: 10px;
 }
 
 /* Responsive layout - */
