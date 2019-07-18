@@ -25,6 +25,17 @@ li{
 li a:hover{
     text-decoration: underline;
 }
+
+.lightHover figure > figcaption > div > a:hover{
+  color: darkgray;
+}
+.lightHover figure > figcaption > div > a > img{
+  cursor:pointer;
+}
+
+.height-auto{
+  height: auto;
+}
 .mostPopular li{
     border-top: 1px lightgray solid;
     padding: 20px;
