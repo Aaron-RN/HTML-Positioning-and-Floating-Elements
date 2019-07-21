@@ -1,0 +1,146 @@
+body{
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size-adjust: 100%;
+}
+div, img{
+    outline: 1px red solid;
+}
+*{
+    box-sizing: border-box;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav{
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    vertical-align: middle;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+.signup-box{
+    position: absolute;
+    margin-right: 160px;
+    margin-top: -380px;
+    right: 0;
+}
+.bold{
+    font-weight: bold;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bluebtn{
+    cursor: pointer;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: steelblue;
+    border: none;
+    border: 1px blue solid;
+    border-radius: 6px;
+}
+.bluebtn:hover{
+    background-color: darkslateblue;
+}
+.media-icon-grey{
+    font-size: 14px;
+    background-color: lightgray;
+    border-radius: 100%;
+    padding: 8px;
+}
+.mediaicon{
+    font-size: 14px;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.border-t-grey{
+    border-top: 1px grey solid;
+    width: 80px;
+}
+.border-t-gray{
+    border-top: 1px grey solid;
+    width: 80px;
+}
+.border-b-grey{
+    border-bottom: 1px grey solid;
+    width: 80px;
+}
+.border-b-gray{
+    border-bottom: 1px grey solid;
+    width: 80px;
+}
+.boxsize-border{
+    box-sizing: border-box;
+}
+.line-28{
+    line-height: 28px;
+}
+.text-grey{
+    color: grey;
+}
+.text-gray{
+    color: grey;
+}
+.text-dgrey{
+    color: rgb(80,80,80);
+}
+.text-dgray{
+    color: rgb(80,80,80);
+}
+.size-12{
+    font-size: 12px;
+}
+.size-14{
+    font-size: 14px;
+}
+.size-20{
+    font-size: 20px;
+}
+.width-100{
+    width: 100%;
+}
+.width-80{
+    width: 80%;
+}
+.width-40{
+    width: 40%;
+}
+.caption{
+    max-width: 900px;
+}
+main{
+    width: 100%;
+}
+
+.max-width-440{
+    max-width: 440px;
+}
+.max-width-200{
+    max-width: 200px;
+}
+.main-header-text{
+    max-width: 540px;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 42px;
+}
+
+.pHeader{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+}
